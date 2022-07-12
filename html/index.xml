@@ -1,19 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>5 More Minutes Gaming on 5 More Minutes Gaming </title>
-    <link>http://localhost:1313/</link>
-    <language>en-US</language>
-    <author>Enthusiastic Hugo User</author>
-    <rights>Copyright (c) 2022, Five More Minutes Gaming</rights>
-    <updated>Tue, 12 Jul 2022 09:32:41 CDT</updated>
-    
+    <title>5 More Minutes Gaming</title>
+    <link>http://5moreminutesgaming.com/</link>
+    <description>Recent content on 5 More Minutes Gaming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2022 09:32:41 -0500</lastBuildDate><atom:link href="http://5moreminutesgaming.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Posts AA</title>
-      <link>http://localhost:1313/posts/</link>
-      <pubDate>Tue, 12 Jul 2022 09:32:41 CDT</pubDate>
-      <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/posts/</guid>
-      <description> HTML goes here</description>
+      <title>Opening Up To Open World Games</title>
+      <link>http://5moreminutesgaming.com/posts/01_open_world_games/</link>
+      <pubDate>Tue, 12 Jul 2022 09:32:41 -0500</pubDate>
+      
+      <guid>http://5moreminutesgaming.com/posts/01_open_world_games/</guid>
+      <description>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
+Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night Creative Commons — Attribution 3.0 Unported — CC BY 3.0 Free Download / Stream: https://bit.ly/3HEVIZg Music promoted by Audio Library https://youtu.be/owdveKKK9nw</description>
     </item>
     
   </channel>

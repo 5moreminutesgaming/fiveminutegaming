@@ -2,3 +2,7 @@ baseURL = 'http://5moreminutesgaming.com/'
 languageCode = 'en-us'
 title = '5 More Minutes Gaming'
 theme = "hugo-theme-terminal"
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
