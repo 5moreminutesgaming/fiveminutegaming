@@ -13,30 +13,30 @@
         <title>5 More Minutes Gaming</title>
         <atom:link href="https://5moreminutesgaming.com/feed//" rel="self" type="application/rss+xml"/>
         <link>https://5moreminutesgaming.com/</link>
-        <description></description>
+        <description>5 More Minutes Gaming Podcasts</description>
         <lastBuildDate>Tue, 12 Jul 2022 09:32:41 -0500</lastBuildDate>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
         <language>en</language>
         <copyright>Copyright &#xA9; 5 More Minutes Gaming</copyright>
-        <managingEditor> ()</managingEditor>
-        <webMaster> ()</webMaster>
+        <managingEditor>five-more-minut-4925@pages.plusgoogle.com (5 More Minutes Gaming)</managingEditor>
+        <webMaster>five-more-minut-4925@pages.plusgoogle.com (5 More Minutes Gaming)</webMaster>
 
         <itunes:new-feed-url>https://5moreminutesgaming.com//posts/index.xml</itunes:new-feed-url>
         <itunes:type>episodic</itunes:type>
-        <itunes:subtitle></itunes:subtitle>
-        <itunes:summary></itunes:summary>
+        <itunes:subtitle>5 More Taglines</itunes:subtitle>
+        <itunes:summary>5 More Minutes Gaming Podcasts</itunes:summary>
         <itunes:keywords></itunes:keywords>
         <itunes:category text="Video Games"/>
 
-        <itunes:author></itunes:author>
+        <itunes:author>5 More Minutes Gaming</itunes:author>
         <itunes:owner>
-            <itunes:name></itunes:name>
-            <itunes:email></itunes:email>
+            <itunes:name>5 More Minutes Gaming</itunes:name>
+            <itunes:email>five-more-minut-4925@pages.plusgoogle.com</itunes:email>
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="images/logo_feed.png"/>
+        <itunes:image href="https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/images/logo_feed.png"/>
 
         
         <item>
@@ -49,7 +49,7 @@
                        length='39:32' type="audio/mp3"/>
             <guid>https://5moreminutesgaming.com//</guid>
 
-            <itunes:author></itunes:author>
+            <itunes:author>5 More Minutes Gaming</itunes:author>
             <itunes:episode></itunes:episode>
             <itunes:title>Opening Up To Open World Games</itunes:title>
             <itunes:summary>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
