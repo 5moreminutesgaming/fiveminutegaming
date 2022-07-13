@@ -19,8 +19,8 @@
         <sy:updateFrequency>1</sy:updateFrequency>
         <language>en</language>
         <copyright>Copyright &#xA9; 5 More Minutes Gaming</copyright>
-        <managingEditor>five-more-minut-4925@pages.plusgoogle.com (5 More Minutes Gaming)</managingEditor>
-        <webMaster>five-more-minut-4925@pages.plusgoogle.com (5 More Minutes Gaming)</webMaster>
+        <managingEditor>5moreminutesgaming.com@domainsbyproxy.com (5 More Minutes Gaming)</managingEditor>
+        <webMaster>5moreminutesgaming.com@domainsbyproxy.com (5 More Minutes Gaming)</webMaster>
 
         <itunes:new-feed-url>https://5moreminutesgaming.com/posts/index.xml</itunes:new-feed-url>
         <itunes:type>episodic</itunes:type>
@@ -32,7 +32,7 @@
         <itunes:author>5 More Minutes Gaming</itunes:author>
         <itunes:owner>
             <itunes:name>5 More Minutes Gaming</itunes:name>
-            <itunes:email>five-more-minut-4925@pages.plusgoogle.com</itunes:email>
+            <itunes:email>5moreminutesgaming.com@domainsbyproxy.com</itunes:email>
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:explicit>no</itunes:explicit>
@@ -45,7 +45,7 @@
             <pubDate>Tue, 12 Jul 2022 09:32:00 -0500</pubDate>
             <description>Two hardcore gamer nerds sit down to discuss topics in our culture.</description>
             <enclosure url='https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/001_-Final-_opening_up_to_open_world_games.mp3'
-                       length='39:32' type="audio/mp3"/>
+                       length='39:30' type="audio/mp3"/>
             <guid>https://5moreminutesgaming.com/1/</guid>
 
             <itunes:author>5 More Minutes Gaming</itunes:author>
@@ -75,7 +75,7 @@ YouTube MP3 </itunes:summary>
 ]]></content:encoded>
             <itunes:image
                     href="https://5moreminutesgaming.com/5moreMinutesGaming-circus-simple.png"/>
-            <itunes:duration>39:32</itunes:duration>
+            <itunes:duration>39:30</itunes:duration>
             <itunes:keywords>first, post</itunes:keywords>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
