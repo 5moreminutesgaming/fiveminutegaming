@@ -1,0 +1,76 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+
+{{ `<?xml version="1.0" encoding="utf-8"?>` | safeHTML }}
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        {{ $assetFormat := .Scratch.Get "asset-format" }}
+        <title>{{ .Site.Title}}</title>
+        <atom:link href="{{.Site.BaseURL}}feed/{{$assetFormat}}/" rel="self" type="application/rss+xml"/>
+        <link>{{.Site.BaseURL}}</link>
+        <description>{{.Site.Params.podcast.description}}</description>
+        <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <language>en</language>
+        <copyright>Copyright &#xA9; {{.Site.Title}}</copyright>
+        <managingEditor>{{.Site.Params.author.email}} ({{ .Site.Params.author.name }})</managingEditor>
+        <webMaster>{{.Site.Params.author.email}} ({{ .Site.Params.author.name }})</webMaster>
+
+        <itunes:new-feed-url>{{.Site.BaseURL}}/posts/index.xml</itunes:new-feed-url>
+        <itunes:type>episodic</itunes:type>
+        <itunes:subtitle>{{.Site.Params.podcast.tagline}}</itunes:subtitle>
+        <itunes:summary>{{.Site.Params.podcast.description}}</itunes:summary>
+        <itunes:keywords></itunes:keywords>
+        <itunes:category text="Video Games"/>
+
+        <itunes:author>{{.Site.Params.author.name}}</itunes:author>
+        <itunes:owner>
+            <itunes:name>{{.Site.Params.author.name}}</itunes:name>
+            <itunes:email>{{.Site.Params.author.email}}</itunes:email>
+        </itunes:owner>
+        <itunes:block>no</itunes:block>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="{{ .Site.Params.podcast.cdn_url }}images/logo_feed.png"/>
+
+        {{ range $pages }}
+        <item>
+            <link>{{.Permalink}}</link>
+            <title>{{ .Params.number }}. {{ .Params.title }}</title>
+            <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:00 -0700" }}</pubDate>
+            <description>{{ .Description | plainify }}</description>
+            <test>asdasd</test>
+            <enclosure url='{{.Params.mp3 | safeHTML }}'
+                       length='{{ .Params.duration }}' type="audio/mp3"/>
+            <guid>{{.Site.BaseURL}}{{ if .Params.guid }}{{ .Params.guid }}{{ else }}{{ .Params.number }}{{ end }}/</guid>
+
+            <itunes:author>{{.Site.Params.author.name}}</itunes:author>
+            <itunes:episode>{{ .Params.number }}</itunes:episode>
+            <itunes:title>{{ .Params.title }}</itunes:title>
+            <itunes:summary>{{ .Content | plainify }}</itunes:summary>
+            <itunes:subtitle>{{ .Description | plainify }}</itunes:subtitle>
+            <content:encoded>{{ `<![CDATA[` | safeHTML }}{{ .Content }}{{ `]]>` | safeHTML }}</content:encoded>
+            <itunes:image
+                    href="/static/5moreMinutesGaming-circus-simple.png"/>
+            <itunes:duration>{{ .Params.duration }}</itunes:duration>
+            <itunes:keywords>{{ delimit .Params.tags ", " }}</itunes:keywords>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        {{end}}
+
+    </channel>
+</rss>

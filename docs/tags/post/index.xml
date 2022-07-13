@@ -2,31 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>post on 5 More Minutes Gaming</title>
-    <link>http://5moreminutesgaming.com/tags/post/</link>
+    <link>http://localhost:1313/tags/post/</link>
     <description>Recent content in post on 5 More Minutes Gaming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Jul 2022 09:32:41 -0500</lastBuildDate><atom:link href="http://5moreminutesgaming.com/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>five-more-minut-4925@pages.plusgoogle.com (5 More Minutes Gaming)</managingEditor>
+    <webMaster>five-more-minut-4925@pages.plusgoogle.com (5 More Minutes Gaming)</webMaster>
+    <lastBuildDate>Tue, 12 Jul 2022 09:32:41 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opening Up To Open World Games</title>
-      <link>http://5moreminutesgaming.com/posts/01_open_world_games/</link>
+      <link>http://localhost:1313/posts/01_open_world_games/</link>
       <pubDate>Tue, 12 Jul 2022 09:32:41 -0500</pubDate>
-      
-      <guid>http://5moreminutesgaming.com/posts/01_open_world_games/</guid>
+      <author>five-more-minut-4925@pages.plusgoogle.com (5 More Minutes Gaming)</author>
+      <guid>http://localhost:1313/posts/01_open_world_games/</guid>
       <description>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
-Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night Creative Commons — Attribution 3.0 Unported — CC BY 3.0 Free Download / Stream: https://bit.ly/3HEVIZg Music promoted by Audio Library https://youtu.be/owdveKKK9nw</description>
+Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night
+Creative Commons — Attribution 3.0 Unported — CC BY 3.0
+Free Download / Stream: https://bit.ly/3HEVIZg
+Music promoted by Audio Library https://youtu.be/owdveKKK9nw
+YouTube MP3 Sorry, your browser does not support the audio element.</description>
       <content>&lt;h2 id=&#34;opening-up-to-open-world-games&#34;&gt;Opening Up To Open World Games&lt;/h2&gt;
 &lt;p&gt;Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Spacing Out Last Night by JoeniNpcGamer &lt;a href=&#34;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&#34;&gt;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&lt;/a&gt;
-Creative Commons — Attribution 3.0 Unported — CC BY 3.0 
-Free Download / Stream: &lt;a href=&#34;https://bit.ly/3HEVIZg&#34;&gt;https://bit.ly/3HEVIZg&lt;/a&gt;
-Music promoted by Audio Library &lt;a href=&#34;https://youtu.be/owdveKKK9nw&#34;&gt;https://youtu.be/owdveKKK9nw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spacing Out Last Night by JoeniNpcGamer &lt;a href=&#34;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&#34;&gt;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Creative Commons — Attribution 3.0 Unported — CC BY 3.0&lt;/p&gt;
+&lt;p&gt;Free Download / Stream: &lt;a href=&#34;https://bit.ly/3HEVIZg&#34;&gt;https://bit.ly/3HEVIZg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Music promoted by Audio Library &lt;a href=&#34;https://youtu.be/owdveKKK9nw&#34;&gt;https://youtu.be/owdveKKK9nw&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
 
 
 &lt;iframe width=&#34;100%&#34; height=&#34;600px&#34; src=&#34;https://www.youtube.com/embed/Y6BLflsTtpY&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
+
+&lt;h2 id=&#34;mp3&#34;&gt;MP3&lt;/h2&gt;
+
+
+&lt;div class=&#34;asd&#34;&gt;
+&lt;audio controls&gt;
+        &lt;source src=&#34;{{ $.Page.Params.mp3 }}&#34; type=&#34;audio/mp4&#34;&gt;
+        Sorry, your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
+&lt;/audio&gt;&lt;br&gt;
+Download: &lt;a href=&#34;{{ $.Page.Params.mp3 }}&#34;&gt;MP3&lt;/a&gt; 
+&lt;/div&gt;
 
 </content>
     </item>

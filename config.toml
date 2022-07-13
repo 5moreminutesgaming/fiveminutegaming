@@ -1,4 +1,4 @@
-baseURL = 'http://5moreminutesgaming.com/'
+baseURL = 'https://5moreminutesgaming.com/'
 languageCode = 'en-us'
 title = '5 More Minutes Gaming'
 theme = "hugo-theme-terminal"
@@ -6,3 +6,15 @@ theme = "hugo-theme-terminal"
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
+
+[params]
+    [author]
+        name = "5 More Minutes Gaming"
+        email = "five-more-minut-4925@pages.plusgoogle.com"
+    twitter = "@allmightyspiff"
+    [podcast]
+        description = "5 More Minutes Gaming Podcasts"
+        tagline = "5 More Taglines"
+        cdn_url = "https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/"
+        download_url = "https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/"
+

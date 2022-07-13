@@ -1,35 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on 5 More Minutes Gaming</title>
-    <link>http://5moreminutesgaming.com/posts/</link>
-    <description>Recent content in Posts on 5 More Minutes Gaming</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 12 Jul 2022 09:32:41 -0500</lastBuildDate><atom:link href="http://5moreminutesgaming.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Opening Up To Open World Games</title>
-      <link>http://5moreminutesgaming.com/posts/01_open_world_games/</link>
-      <pubDate>Tue, 12 Jul 2022 09:32:41 -0500</pubDate>
-      
-      <guid>http://5moreminutesgaming.com/posts/01_open_world_games/</guid>
-      <description>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
-Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night Creative Commons — Attribution 3.0 Unported — CC BY 3.0 Free Download / Stream: https://bit.ly/3HEVIZg Music promoted by Audio Library https://youtu.be/owdveKKK9nw</description>
-      <content>&lt;h2 id=&#34;opening-up-to-open-world-games&#34;&gt;Opening Up To Open World Games&lt;/h2&gt;
-&lt;p&gt;Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Spacing Out Last Night by JoeniNpcGamer &lt;a href=&#34;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&#34;&gt;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&lt;/a&gt;
-Creative Commons — Attribution 3.0 Unported — CC BY 3.0 
-Free Download / Stream: &lt;a href=&#34;https://bit.ly/3HEVIZg&#34;&gt;https://bit.ly/3HEVIZg&lt;/a&gt;
-Music promoted by Audio Library &lt;a href=&#34;https://youtu.be/owdveKKK9nw&#34;&gt;https://youtu.be/owdveKKK9nw&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        
+        <title>5 More Minutes Gaming</title>
+        <atom:link href="http://localhost:1313/feed//" rel="self" type="application/rss+xml"/>
+        <link>http://localhost:1313/</link>
+        <description></description>
+        <lastBuildDate>Tue, 12 Jul 2022 09:32:41 -0500</lastBuildDate>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <language>en</language>
+        <copyright>Copyright &#xA9; 5 More Minutes Gaming</copyright>
+        <managingEditor> ()</managingEditor>
+        <webMaster> ()</webMaster>
+
+        <itunes:new-feed-url>http://localhost:1313//posts/index.xml</itunes:new-feed-url>
+        <itunes:type>episodic</itunes:type>
+        <itunes:subtitle></itunes:subtitle>
+        <itunes:summary></itunes:summary>
+        <itunes:keywords></itunes:keywords>
+        <itunes:category text="Video Games"/>
+
+        <itunes:author></itunes:author>
+        <itunes:owner>
+            <itunes:name></itunes:name>
+            <itunes:email></itunes:email>
+        </itunes:owner>
+        <itunes:block>no</itunes:block>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="images/logo_feed.png"/>
+
+        
+        <item>
+            <link>http://localhost:1313/posts/01_open_world_games/</link>
+            <title>. Opening Up To Open World Games</title>
+            <pubDate>Tue, 12 Jul 2022 09:32:00 -0500</pubDate>
+            <description>Two hardcore gamer nerds sit down to discuss topics in our culture.</description>
+            <test>asdasd</test>
+            <enclosure url='https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/001_-Final-_opening_up_to_open_world_games.mp3'
+                       length='39:32' type="audio/mp3"/>
+            <guid>http://localhost:1313//</guid>
+
+            <itunes:author></itunes:author>
+            <itunes:episode></itunes:episode>
+            <itunes:title>Opening Up To Open World Games</itunes:title>
+            <itunes:summary>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
+Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night
+Creative Commons — Attribution 3.0 Unported — CC BY 3.0
+Free Download / Stream: https://bit.ly/3HEVIZg
+Music promoted by Audio Library https://youtu.be/owdveKKK9nw
+YouTube MP3 Sorry, your browser does not support the audio element.Download: MP3 </itunes:summary>
+            <itunes:subtitle>Two hardcore gamer nerds sit down to discuss topics in our culture.</itunes:subtitle>
+            <content:encoded><![CDATA[<h2 id="opening-up-to-open-world-games">Opening Up To Open World Games</h2>
+<p>Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.</p>
+<hr>
+<p>Spacing Out Last Night by JoeniNpcGamer <a href="https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night">https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night</a></p>
+<p>Creative Commons — Attribution 3.0 Unported — CC BY 3.0</p>
+<p>Free Download / Stream: <a href="https://bit.ly/3HEVIZg">https://bit.ly/3HEVIZg</a></p>
+<p>Music promoted by Audio Library <a href="https://youtu.be/owdveKKK9nw">https://youtu.be/owdveKKK9nw</a></p>
+<hr>
+<h2 id="youtube">YouTube</h2>
 
 
-&lt;iframe width=&#34;100%&#34; height=&#34;600px&#34; src=&#34;https://www.youtube.com/embed/Y6BLflsTtpY&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/Y6BLflsTtpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-</content>
-    </item>
-    
-  </channel>
+<h2 id="mp3">MP3</h2>
+
+
+<div class="asd">
+<audio controls>
+        <source src="{{ $.Page.Params.mp3 }}" type="audio/mp4">
+        Sorry, your browser does not support the <code>audio</code> element.
+</audio><br>
+Download: <a href="{{ $.Page.Params.mp3 }}">MP3</a> 
+</div>
+
+]]></content:encoded>
+            <itunes:image
+                    href="/static/5moreMinutesGaming-circus-simple.png"/>
+            <itunes:duration>39:32</itunes:duration>
+            <itunes:keywords>first, post</itunes:keywords>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        
+
+    </channel>
 </rss>
