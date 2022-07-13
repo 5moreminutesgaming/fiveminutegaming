@@ -36,7 +36,7 @@
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="/5moreMinutesGaming-circus-simple.png"/>
+        <itunes:image href="https://5moreminutesgaming.com/5moreMinutesGaming-circus-simple.png"/>
 
         
         <item>
@@ -44,7 +44,6 @@
             <title>1. Opening Up To Open World Games</title>
             <pubDate>Tue, 12 Jul 2022 09:32:00 -0500</pubDate>
             <description>Two hardcore gamer nerds sit down to discuss topics in our culture.</description>
-            <test>asdasd</test>
             <enclosure url='https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/001_-Final-_opening_up_to_open_world_games.mp3'
                        length='39:32' type="audio/mp3"/>
             <guid>https://5moreminutesgaming.com/1/</guid>
@@ -52,15 +51,14 @@
             <itunes:author>5 More Minutes Gaming</itunes:author>
             <itunes:episode>1</itunes:episode>
             <itunes:title>Opening Up To Open World Games</itunes:title>
-            <itunes:summary>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
+            <itunes:summary>Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
 Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night
 Creative Commons — Attribution 3.0 Unported — CC BY 3.0
 Free Download / Stream: https://bit.ly/3HEVIZg
 Music promoted by Audio Library https://youtu.be/owdveKKK9nw
-YouTube MP3 Sorry, your browser does not support the audio element.Download: MP3 </itunes:summary>
+YouTube MP3 </itunes:summary>
             <itunes:subtitle>Two hardcore gamer nerds sit down to discuss topics in our culture.</itunes:subtitle>
-            <content:encoded><![CDATA[<h2 id="opening-up-to-open-world-games">Opening Up To Open World Games</h2>
-<p>Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.</p>
+            <content:encoded><![CDATA[<p>Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.</p>
 <hr>
 <p>Spacing Out Last Night by JoeniNpcGamer <a href="https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night">https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night</a></p>
 <p>Creative Commons — Attribution 3.0 Unported — CC BY 3.0</p>
@@ -74,19 +72,9 @@ YouTube MP3 Sorry, your browser does not support the audio element.Download: MP
 
 
 <h2 id="mp3">MP3</h2>
-
-
-<div class="asd">
-<audio controls>
-        <source src="{{ $.Page.Params.mp3 }}" type="audio/mp4">
-        Sorry, your browser does not support the <code>audio</code> element.
-</audio><br>
-Download: <a href="{{ $.Page.Params.mp3 }}">MP3</a> 
-</div>
-
 ]]></content:encoded>
             <itunes:image
-                    href="/5moreMinutesGaming-circus-simple.png"/>
+                    href="https://5moreminutesgaming.com/5moreMinutesGaming-circus-simple.png"/>
             <itunes:duration>39:32</itunes:duration>
             <itunes:keywords>first, post</itunes:keywords>
             <itunes:episodeType>full</itunes:episodeType>

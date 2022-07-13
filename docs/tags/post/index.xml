@@ -13,14 +13,13 @@
       <pubDate>Tue, 12 Jul 2022 09:32:41 -0500</pubDate>
       
       <guid>https://5moreminutesgaming.com/posts/01_open_world_games/</guid>
-      <description>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
+      <description>Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
 Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night
 Creative Commons — Attribution 3.0 Unported — CC BY 3.0
 Free Download / Stream: https://bit.ly/3HEVIZg
 Music promoted by Audio Library https://youtu.be/owdveKKK9nw
-YouTube MP3 Sorry, your browser does not support the audio element.</description>
-      <content>&lt;h2 id=&#34;opening-up-to-open-world-games&#34;&gt;Opening Up To Open World Games&lt;/h2&gt;
-&lt;p&gt;Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.&lt;/p&gt;
+YouTube MP3 </description>
+      <content>&lt;p&gt;Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Spacing Out Last Night by JoeniNpcGamer &lt;a href=&#34;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&#34;&gt;https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Creative Commons — Attribution 3.0 Unported — CC BY 3.0&lt;/p&gt;
@@ -34,16 +33,6 @@ YouTube MP3 Sorry, your browser does not support the audio element.</description
 
 
 &lt;h2 id=&#34;mp3&#34;&gt;MP3&lt;/h2&gt;
-
-
-&lt;div class=&#34;asd&#34;&gt;
-&lt;audio controls&gt;
-        &lt;source src=&#34;{{ $.Page.Params.mp3 }}&#34; type=&#34;audio/mp4&#34;&gt;
-        Sorry, your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
-&lt;/audio&gt;&lt;br&gt;
-Download: &lt;a href=&#34;{{ $.Page.Params.mp3 }}&#34;&gt;MP3&lt;/a&gt; 
-&lt;/div&gt;
-
 </content>
     </item>
     

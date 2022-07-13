@@ -1,0 +1,46 @@
+{{ define "main" }}
+<section id="main">
+  <h1 id="title">{{ .Title }}</h1>
+  <div>
+        <article id="content">
+           {{ .Content }}
+           <div class="asd">
+              <audio controls>
+                    <source src="{{ $.Page.Params.mp3 }}" type="audio/mp4">
+                    Sorry, your browser does not support the <code>audio</code> element.
+              </audio><br>
+              Download: <a href="{{ $.Page.Params.mp3 }}">MP3</a> 
+            </div>
+        </article>
+  </div>
+</section>
+<aside id="meta">
+    <div>
+    <section>
+      <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
+    </section>
+    {{ with .Params.topics }}
+    <ul id="topics">
+      {{ range . }}
+        <li><a href="{{ "topics" | absURL}}/{{ . | urlize }}">{{ . }}</a> </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ with .Params.tags }}
+    <ul id="tags">
+      {{ range . }}
+        <li> <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    </div>
+    <div>
+        {{ with .PrevInSection }}
+          <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+        {{ with .NextInSection }}
+          <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+    </div>
+</aside>
+{{ end }}

@@ -45,7 +45,7 @@
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="/5moreMinutesGaming-circus-simple.png"/>
+        <itunes:image href="{{.Site.BaseURL}}5moreMinutesGaming-circus-simple.png"/>
 
         {{ range $pages }}
         <item>
@@ -53,7 +53,6 @@
             <title>{{ .Params.number }}. {{ .Params.title }}</title>
             <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:00 -0700" }}</pubDate>
             <description>{{ .Description | plainify }}</description>
-            <test>asdasd</test>
             <enclosure url='{{.Params.mp3 | safeHTML }}'
                        length='{{ .Params.duration }}' type="audio/mp3"/>
             <guid>{{.Site.BaseURL}}{{ if .Params.guid }}{{ .Params.guid }}{{ else }}{{ .Params.number }}{{ end }}/</guid>
@@ -65,7 +64,7 @@
             <itunes:subtitle>{{ .Description | plainify }}</itunes:subtitle>
             <content:encoded>{{ `<![CDATA[` | safeHTML }}{{ .Content }}{{ `]]>` | safeHTML }}</content:encoded>
             <itunes:image
-                    href="/5moreMinutesGaming-circus-simple.png"/>
+                    href="{{.Site.BaseURL}}5moreMinutesGaming-circus-simple.png"/>
             <itunes:duration>{{ .Params.duration }}</itunes:duration>
             <itunes:keywords>{{ delimit .Params.tags ", " }}</itunes:keywords>
             <itunes:episodeType>full</itunes:episodeType>

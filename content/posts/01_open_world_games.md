@@ -16,8 +16,6 @@ duration = "39:32"
 number = 1
 +++
 
-## Opening Up To Open World Games
-
 Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre. 
 
 -----------------
@@ -42,13 +40,4 @@ Music promoted by Audio Library https://youtu.be/owdveKKK9nw
 
 ## MP3
 
-{{< rawhtml >}}
-<div class="asd">
-<audio controls>
-        <source src="{{ $.Page.Params.mp3 }}" type="audio/mp4">
-        Sorry, your browser does not support the <code>audio</code> element.
-</audio><br>
-Download: <a href="{{ $.Page.Params.mp3 }}">MP3</a> 
-</div>
-{{< /rawhtml >}}
 
