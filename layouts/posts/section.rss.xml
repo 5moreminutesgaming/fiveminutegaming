@@ -65,7 +65,7 @@
             <itunes:subtitle>{{ .Description | plainify }}</itunes:subtitle>
             <content:encoded>{{ `<![CDATA[` | safeHTML }}{{ .Content }}{{ `]]>` | safeHTML }}</content:encoded>
             <itunes:image
-                    href="/static/5moreMinutesGaming-circus-simple.png"/>
+                    href="/5moreMinutesGaming-circus-simple.png"/>
             <itunes:duration>{{ .Params.duration }}</itunes:duration>
             <itunes:keywords>{{ delimit .Params.tags ", " }}</itunes:keywords>
             <itunes:episodeType>full</itunes:episodeType>

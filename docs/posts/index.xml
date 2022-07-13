@@ -11,8 +11,8 @@
     <channel>
         
         <title>5 More Minutes Gaming</title>
-        <atom:link href="http://localhost:1313/feed//" rel="self" type="application/rss+xml"/>
-        <link>http://localhost:1313/</link>
+        <atom:link href="https://5moreminutesgaming.com/feed//" rel="self" type="application/rss+xml"/>
+        <link>https://5moreminutesgaming.com/</link>
         <description></description>
         <lastBuildDate>Tue, 12 Jul 2022 09:32:41 -0500</lastBuildDate>
         <sy:updatePeriod>hourly</sy:updatePeriod>
@@ -22,7 +22,7 @@
         <managingEditor> ()</managingEditor>
         <webMaster> ()</webMaster>
 
-        <itunes:new-feed-url>http://localhost:1313//posts/index.xml</itunes:new-feed-url>
+        <itunes:new-feed-url>https://5moreminutesgaming.com//posts/index.xml</itunes:new-feed-url>
         <itunes:type>episodic</itunes:type>
         <itunes:subtitle></itunes:subtitle>
         <itunes:summary></itunes:summary>
@@ -40,14 +40,14 @@
 
         
         <item>
-            <link>http://localhost:1313/posts/01_open_world_games/</link>
+            <link>https://5moreminutesgaming.com/posts/01_open_world_games/</link>
             <title>. Opening Up To Open World Games</title>
             <pubDate>Tue, 12 Jul 2022 09:32:00 -0500</pubDate>
             <description>Two hardcore gamer nerds sit down to discuss topics in our culture.</description>
             <test>asdasd</test>
             <enclosure url='https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/001_-Final-_opening_up_to_open_world_games.mp3'
                        length='39:32' type="audio/mp3"/>
-            <guid>http://localhost:1313//</guid>
+            <guid>https://5moreminutesgaming.com//</guid>
 
             <itunes:author></itunes:author>
             <itunes:episode></itunes:episode>
@@ -86,7 +86,7 @@ Download: <a href="{{ $.Page.Params.mp3 }}">MP3</a>
 
 ]]></content:encoded>
             <itunes:image
-                    href="/static/5moreMinutesGaming-circus-simple.png"/>
+                    href="/5moreMinutesGaming-circus-simple.png"/>
             <itunes:duration>39:32</itunes:duration>
             <itunes:keywords>first, post</itunes:keywords>
             <itunes:episodeType>full</itunes:episodeType>
