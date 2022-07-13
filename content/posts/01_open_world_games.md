@@ -13,6 +13,7 @@ hideComments = false
 mp3 = "https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/001_-Final-_opening_up_to_open_world_games.mp3"
 youtube_id = "Y6BLflsTtpY"
 duration = "39:32"
+number = 1
 +++
 
 ## Opening Up To Open World Games

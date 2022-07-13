@@ -36,21 +36,21 @@
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/images/logo_feed.png"/>
+        <itunes:image href="/5moreMinutesGaming-circus-simple.png"/>
 
         
         <item>
             <link>https://5moreminutesgaming.com/posts/01_open_world_games/</link>
-            <title>. Opening Up To Open World Games</title>
+            <title>1. Opening Up To Open World Games</title>
             <pubDate>Tue, 12 Jul 2022 09:32:00 -0500</pubDate>
             <description>Two hardcore gamer nerds sit down to discuss topics in our culture.</description>
             <test>asdasd</test>
             <enclosure url='https://s3.us-east.cloud-object-storage.appdomain.cloud/5moreminutespodcast/001_-Final-_opening_up_to_open_world_games.mp3'
                        length='39:32' type="audio/mp3"/>
-            <guid>https://5moreminutesgaming.com//</guid>
+            <guid>https://5moreminutesgaming.com/1/</guid>
 
             <itunes:author>5 More Minutes Gaming</itunes:author>
-            <itunes:episode></itunes:episode>
+            <itunes:episode>1</itunes:episode>
             <itunes:title>Opening Up To Open World Games</itunes:title>
             <itunes:summary>Opening Up To Open World Games Two hardcore gamer nerds sit down to discuss topics in our culture. Todays episode covers Open World Games, how they have changed through the times and what we are excited about in the genre.
 Spacing Out Last Night by JoeniNpcGamer https://soundcloud.com/joeninpcgamer/jng-spacing-out-last-night
